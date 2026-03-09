@@ -3,4 +3,4 @@ WORKDIR /assignment_1_flask_app
 COPY requirements.txt requirements.txt
 RUN pip install -r ./requirements.txt
 COPY . .
-CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:8080", "app:app"]
+CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:80", "app:app"]
