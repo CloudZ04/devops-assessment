@@ -1,6 +1,6 @@
 #This Flask app is for weight conversion
 
-#This is a comment for demonstration purposes
+# This is a comment for demonstration purposes
 
 from flask import Flask, render_template, request
 
