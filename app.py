@@ -19,7 +19,7 @@ def kg_to_pounds(kg):
 
 def pounds_to_kg(pounds):
     # 1 pound = 0.453592 kg
-    return pounds * 0.453592
+    return -pounds * 0.453592
 
 def grams_to_pounds(grams):
     # chain the functions together: grams -> kg -> pounds
