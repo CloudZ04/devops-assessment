@@ -1,5 +1,7 @@
 #This Flask app is for weight conversion
 
+#This is a comment for demonstration purposes
+
 from flask import Flask, render_template, request
 
 app = Flask(__name__, template_folder='./')
